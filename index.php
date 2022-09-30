@@ -13,6 +13,7 @@ spl_autoload_register(function($class){
 	}
 });
 
+require 'vendor/autoload.php';
 require 'App/Support/Config.php';
 require 'App/Support/Helpers.php';
 require 'App/Support/Message.php';
