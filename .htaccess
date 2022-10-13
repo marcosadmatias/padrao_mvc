@@ -2,4 +2,4 @@ RewriteEngine On
 Options All -Indexes
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.*)$ /padrao_mvc/index.php?url=$1 [QSA,L]
+RewriteRule ^(.*)$ /devsbook/index.php?url=$1 [QSA,L]
